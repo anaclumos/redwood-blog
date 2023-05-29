@@ -6,6 +6,9 @@
       "web"
     ]
   },
+  "scripts": {
+    "format": "pnpx prettier --write . && yarn rw lint --fix"
+  },
   "devDependencies": {
     "@redwoodjs/core": "5.2.3"
   },
